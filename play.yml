@@ -1,0 +1,10 @@
+---
+- hosts: 127.0.0.1
+  connection: local
+  tasks:
+    - name: print var_name
+      debug:
+        var: var_name
+    - name: set stats
+      set_stats:
+        var_name: "new name"
