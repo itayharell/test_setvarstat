@@ -10,6 +10,6 @@
         var_name: "new name!"
     - name: set stats
       set_stats:
-        aggragate: no
         data:
           var_name: "new name"
+        aggregate: no
