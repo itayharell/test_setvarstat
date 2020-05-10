@@ -5,6 +5,9 @@
     - name: print var_name
       debug:
         var: var_name
+    - name: set fact
+      set_fact:
+        var_name: "new name!"
     - name: set stats
       set_stats:
         data:
