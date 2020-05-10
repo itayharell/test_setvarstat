@@ -4,4 +4,4 @@
   tasks:
     - set_stats:
         data:
-          "{{ retun_var }}": "{{ tmpVar }}"
+          "{{ return_var }}": "{{ tmpVar }}"
